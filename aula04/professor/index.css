@@ -1,0 +1,17 @@
+input#tarefa {
+    margin-bottom: 16px;
+}
+
+table thead {
+    background-color: black;
+    color: white;
+}
+
+table tbody {
+    cursor: pointer;
+    user-select: none;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: beige;
+}

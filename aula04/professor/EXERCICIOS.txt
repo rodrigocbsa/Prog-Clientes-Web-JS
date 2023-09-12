@@ -1,0 +1,20 @@
+EXERCÍCIOS
+
+Considerando o código criado em aula...
+
+1) Faça com que o duplo clique em um item da lista mude seu status,
+   invertendo-o.
+
+2) Possibilite remover um item da lista.
+
+3) Implemente um contador que seja armazenado no localStorage para
+   controlar o id das tarefas. Utilize a chave "ultimoId".
+   Faça a tabela exibir o id das tarefas.
+
+HOMEWORK:
+
+4) Permitir editar a descrição de uma tarefa, exibindo um formulário
+  contendo o campo descrição e os botões Salvar e Cancelar.
+  Ao clicar em Salvar, a descrição e a linha da tabela são atualizadas.
+  Ao clicar em Cancelar, basta ocultar o formulário.
+  O formulário apenas deve ser exibido ao clicar em Alterar.

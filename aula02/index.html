@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="02.css" type="text/css" />
+    <link rel="icon" href="favicon.jpg" />
+</head>
+<body>
+    <form>
+        <label for="codigo">Código</label>
+        <input type="text" id="codigo" />
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidade" />
+        <button type="submit" id="adicionar" >Adicionar</button>
+        <button type="submit" id="remover" >Remover</button>
+    </form>
+    <h1>Produtos</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Descrição</th>
+                <th>Quantidade</th>
+                <th>Preço unitário</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"></td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="produtos.js" ></script>
+    <script src="main.js" ></script>
+</body>
+</html>
