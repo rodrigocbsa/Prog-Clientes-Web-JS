@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="Main.js"></script>
+    <title>Exercício Ponto De Venda | PDV</title>
+</head>
+
+<body style="overflow: hidden;background-color: yellow;">
+    <div
+        style="background-color: lightgrey; display: block; margin: 0 auto; width: 80vw; height: 80vh;padding: 10px; border-radius: 10px;">
+
+        <div style="width: 100vw;">
+            <input type="text" id="pesquisa" placeholder="Pesquisar por produto..." style="width: 20rem;">
+            <button id="adiciona">Adicionar</button>
+        </div>
+
+        <div style="display: inline-block;pointer-events: none;margin: 1rem; background-color: gray; padding: 0.5rem;border-radius: 1rem;">
+            <label for="descricao">Produto</label>
+            <input id="descricao-pesquisa" type="text" readonly placeholder="Descrição" style="width: 15rem">
+            <input id="preco-pesquisa" type="text" readonly placeholder="R$ 0,00" style="max-width: 5rem">
+        </div>
+        <table style="margin: 0 auto; width: 80vw; max-height: 50vw; overflow: auto;">
+            <thead style="background-color: black;text-transform: uppercase;color: white;">
+                <tr>
+                    <th>#</th>
+                    <th>Descrição</th>
+                    <th>Quantidade</th>
+                    <th>Preço [R$]</th>
+                    <th>Subtotal [R$]</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <div style="text-align: right;">
+            <label for="total">Total (R$)</label>
+            <output></output>
+        </div>
+    </div>
+</body>
+
+</html>
