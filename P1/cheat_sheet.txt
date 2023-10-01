@@ -1,0 +1,6 @@
+funções array =>
+
+includes : retorna BOOL
+find : retorna PRIMEIRO MATCH
+filter : retorna TODOS OS MATCHS
+map : retornar um array TRANSFORMADO (é melhor abrir um bloco de código)
