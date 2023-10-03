@@ -4,3 +4,6 @@ includes : retorna BOOL
 find : retorna PRIMEIRO MATCH
 filter : retorna TODOS OS MATCHS
 map : retornar um array TRANSFORMADO (é melhor abrir um bloco de código)
+
+
+There is no CHEEEAT: If you are going to take your shit, be sure to take a sheeet of paper before you siit on your seeeat
