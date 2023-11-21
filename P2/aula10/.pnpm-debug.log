@@ -1,0 +1,16 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "message": {
+      "code": "ERR_PNPM_NO_SCRIPT"
+    },
+    "err": {
+      "name": "Error",
+      "message": "Missing script: json-server",
+      "code": "ERR_PNPM_NO_SCRIPT",
+      "stack": "Error: Missing script: json-server\n    at Object.handler (L:\\Prog-Clientes-Web-JS\\node_modules\\pnpm\\dist\\pnpm.js:118381:13)"
+    }
+  }
+}

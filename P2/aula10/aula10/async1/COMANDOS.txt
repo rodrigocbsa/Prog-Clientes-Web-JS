@@ -1,0 +1,17 @@
+# Instalação do PNPM:
+
+npm i --global pnpm
+
+# Instalação do Json Server no projeto
+
+pnpm init
+pnpm i -D json-server
+
+# Execução do Json-Server
+
+1. Crie um arquivo "api.json" contendo um objeto com
+   a propriedade "veiculos", que seja um array de objetos
+   de veículo.
+
+2. Rode:
+    npx json-server api.json --watch

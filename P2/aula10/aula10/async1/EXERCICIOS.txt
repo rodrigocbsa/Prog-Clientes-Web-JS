@@ -1,0 +1,39 @@
+EXERCÍCIOS
+
+1) Crie uma lista de veículos carregados a partir de
+   um servidor RESTful. Cada veículo deve ter "id" (numérico),
+   "modelo" e "ano" (numérico). Use o Json-Server para
+   simular o servidor.
+
+2) Crie o cadastro de veículo, que salve o veículo no
+   servidor RESTful.
+
+3) Acrescente à lista de veículos uma caixa de pesquisa
+   que permita filtrar os veículos, por qualquer campo,
+   para conter o conteúdo digitado. Use o parâmetro
+   de URL "q" do Json Server. Exemplo:
+        "veiculos?q=Kombi"
+   Crie um botão "Pesquisar" para disparar a pesquisa.
+
+4) Acrescente à lista de veículos, em cada veículo,
+   um botão "❌" que permita removê-lo após confirmação.
+   Para confirmar a pergunta, utilize a função confirm(),
+   exemplo:
+        if ( confirm( 'Deseja remover?' ) ) {
+            // Faz a remoção
+        }
+   Ao remover com sucesso, remova o elemento da tela.
+   A remoção ocorrer também no servidor.
+
+5) Crie um arquivo alterar.html com um formulário
+   semelhante ao de cadastro, para alteração de um veículo.
+   Faça com que seja possível passar via URL o parâmetro
+   "id", como segue: "alterar.html?id=2". Para isso,
+   obtenha via JavaScript:
+        const parametros = new URLSearchParams(
+            location.search );
+        const id = location.get( 'id' ); // undefined ou o valor
+    Se o id for numérico, carregue o veículo que contenha
+    o mesmo para o formulário e faça com que o botão Salvar
+    altere no servidor o veículo.
+

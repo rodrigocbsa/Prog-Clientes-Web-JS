@@ -1,0 +1,24 @@
+{
+  "name": "Prog-Clientes-Web-JS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "pnpm": "^5.18.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigocbsa/Prog-Clientes-Web-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigocbsa/Prog-Clientes-Web-JS/issues"
+  },
+  "homepage": "https://github.com/rodrigocbsa/Prog-Clientes-Web-JS#readme"
+}

@@ -1,0 +1,7 @@
+{
+    "veiculos":[
+        {"id": 0, "modelo": "Porsche Panamera", "ano": "2004"},
+        {"id": 1, "modelo": "Chevrolet Camaro", "ano": "2024"},
+        {"id": 2, "modelo": "Ferrari 458 Italia", "ano": "2014"}
+    ]
+}

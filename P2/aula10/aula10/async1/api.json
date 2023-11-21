@@ -1,0 +1,29 @@
+{
+  "veiculos": [
+    {
+      "id": 2,
+      "modelo": "Volkswagen Kombi",
+      "ano": 2023
+    },
+    {
+      "modelo": "Fiat Uno",
+      "ano": 2000,
+      "id": 5
+    },
+    {
+      "modelo": "Chevrolet Cadete",
+      "ano": 1997,
+      "id": 6
+    },
+    {
+      "modelo": "Volkswagen Fusca",
+      "ano": 1966,
+      "id": 7
+    },
+    {
+      "modelo": "Chevrolet Monza",
+      "ano": 2005,
+      "id": 8
+    }
+  ]
+}

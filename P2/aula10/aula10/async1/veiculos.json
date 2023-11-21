@@ -1,0 +1,5 @@
+[
+    { "id": 1, "modelo": "Volkswagen Fox",   "ano": 2000 },
+    { "id": 2, "modelo": "Volkswagen Kombi", "ano": 2023 },
+    { "id": 3, "modelo": "Chevrolet Camaro", "ano": 2024 }
+]
